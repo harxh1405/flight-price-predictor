@@ -22,29 +22,47 @@ machine learning and a modern full-stack architecture.
 - Scikit-learn
 - XGBoost
 
-## 🚀 How to Run
-
-### Backend
+🚀 How to Run the Project
+Backend
 cd backend
 
-***Create virtual environment***
+
+Create virtual environment
+
 python -m venv venv
 
-***Activate virtual environment****
-source venv/bin/activate(MacOS/Linux)
-venv\Scripts\activate(Windows)
 
-***Install dependencies INSIDE the venv***
+Activate virtual environment
+
+# macOS / Linux
+source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
+
+
+Install dependencies (inside the venv)
+
 pip install -r requirements.txt
 
 
-***Run the backend****
+Run the backend
+
 uvicorn app:app --reload
 
 
-###Frontend
+Backend will be available at:
+
+http://localhost:8000
+
+Frontend
 cd frontend
 npm install
 npm run dev
+
+
+Frontend will be available at:
+
+http://localhost:5173
 
 Built with ❤️ by Harsh Singh
