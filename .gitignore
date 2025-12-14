@@ -34,3 +34,21 @@ __pycache__/
 *.h5
 *.sav
 *.joblib
+# Node
+node_modules/
+dist/
+.vite/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Model files (optional – see note below)
+*.pkl
+
+# Environment
+.env
+
+# OS
+.DS_Store
