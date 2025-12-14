@@ -30,7 +30,6 @@ pnpm-debug.log*
 
 # Optional: if you used Python for ML model training
 __pycache__/
-*.pkl
 *.h5
 *.sav
 *.joblib
@@ -44,8 +43,7 @@ venv/
 __pycache__/
 *.pyc
 
-# Model files (optional – see note below)
-*.pkl
+
 
 # Environment
 .env
